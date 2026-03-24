@@ -1,8 +1,8 @@
 {
   "compilerOptions": {
-    "target": "ES2017",
-    "module": "NodeNext",
-    "moduleResolution": "NodeNext",
+    "target": "es2022",
+    "module": "nodenext",
+    "moduleResolution": "nodenext",
     "declaration": true,
     "declarationDir": "dist",
     "strict": true,
