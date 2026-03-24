@@ -1,6 +1,6 @@
 {
   "name": "mathml-to-mathjs",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "type": "module",
   "description": "Convert MathML strings to mathjs-compatible expression strings. Works in both browser and Node.js.",
   "keywords": [
