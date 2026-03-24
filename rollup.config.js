@@ -8,7 +8,17 @@ export default [
       format: 'esm',
       sourcemap: true
     },
-    plugins: [typescript({ tsconfig: './tsconfig.json' })],
+    plugins: [
+      typescript({
+        tsconfig: './tsconfig.json',
+        tsconfigOverride: {
+          compilerOptions: {
+            declaration: true,
+            declarationDir: 'dist'
+          }
+        }
+      })
+    ],
     external: ['@xmldom/xmldom']
   },
   {
@@ -19,7 +29,16 @@ export default [
       sourcemap: true,
       exports: 'named'
     },
-    plugins: [typescript({ tsconfig: './tsconfig.json' })],
+    plugins: [
+      typescript({
+        tsconfig: './tsconfig.json',
+        tsconfigOverride: {
+          compilerOptions: {
+            declaration: false
+          }
+        }
+      })
+    ],
     external: ['@xmldom/xmldom']
   }
 ];

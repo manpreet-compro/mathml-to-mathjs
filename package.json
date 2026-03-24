@@ -1,6 +1,7 @@
 {
   "name": "mathml-to-mathjs",
   "version": "1.0.0",
+  "type": "module",
   "description": "Convert MathML strings to mathjs-compatible expression strings. Works in both browser and Node.js.",
   "keywords": [
     "mathml",
@@ -10,7 +11,7 @@
     "parser",
     "converter"
   ],
-  "author": "",
+  "author": "manpreet-compro",
   "license": "MIT",
   "main": "dist/index.cjs.js",
   "module": "dist/index.esm.js",
@@ -42,10 +43,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/YOUR_USERNAME/mathml-to-mathjs.git"
+    "url": "https://github.com/manpreet-compro/mathml-to-mathjs.git"
   },
   "bugs": {
-    "url": "https://github.com/YOUR_USERNAME/mathml-to-mathjs/issues"
+    "url": "https://github.com/manpreet-compro/mathml-to-mathjs/issues"
   },
-  "homepage": "https://github.com/YOUR_USERNAME/mathml-to-mathjs#readme"
+  "homepage": "https://github.com/manpreet-compro/mathml-to-mathjs#readme"
 }
